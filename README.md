@@ -16,6 +16,7 @@ npm i react-native-smart-tip --save
 ![](https://user-gold-cdn.xitu.io/2019/3/11/1696a916aeec0d6a?w=240&h=427&f=png&s=25778)
 
 ![](https://user-gold-cdn.xitu.io/2019/3/11/1696a966b770cece?w=480&h=800&f=gif&s=562897)
+
 ![](https://user-gold-cdn.xitu.io/2019/3/11/1696a98a1bbc2348?w=480&h=800&f=gif&s=359406)
 
 ### Usage
@@ -91,7 +92,7 @@ show = () => {
 -------| -------- | -------- | ----------- | -----------
 data     | String  | true     | ' '| Displayed content
 statusBarHeight | Number | false | -1 | Prevent Android statusBar
-    height | Number | false | 44 | Height to display
+height | Number | false | 44 | Height to display
 duration | Number | false | WSnackBar.duration.SHORT | The duration of the toast
 position | Number   | false  | WSnackBar.position.BOTTOM | Displayed position
 inEasing | Easing   | false  | Easing.linear| Admission animation
