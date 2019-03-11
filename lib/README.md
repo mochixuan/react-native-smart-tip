@@ -2,7 +2,7 @@
 React-native smart tip, including Toast、Modal、SnackBar
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-green.svg)
-[![npm](https://img.shields.io/npm/v/react-native-smart-tip.svg?style=flat)](https://npmjs.com/package/react-native-smart-tip)
+[![npm](https://img.shields.io/npm/v/react-native-drag-sort.svg?style=flat)](https://npmjs.com/package/react-native-smart-tip)
 
 ### Installation
 ```bash
