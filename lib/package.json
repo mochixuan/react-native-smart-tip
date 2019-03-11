@@ -1,0 +1,34 @@
+{
+  "name": "react-native-smart-tip",
+  "version": "1.0.0",
+  "description": "react-native smart tip, including Toast、Modal、SnackBar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mochixuan/react-native-smart-tip"
+  },
+  "keywords": [
+    "react-native",
+    "Toast",
+    "SnackBar",
+    "Modal",
+    "Component",
+    "ios",
+    "android",
+    "tip",
+    "Notification"
+  ],
+  "author": "mochixuan",
+  "license": "MIT",
+  "dependencies": {
+    "react-native-root-siblings": "^3.1.7"
+  },
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/mochixuan/react-native-smart-tip/issues"
+  },
+  "homepage": "https://github.com/mochixuan/react-native-smart-tip#readme"
+}
