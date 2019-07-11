@@ -23,9 +23,8 @@ export default class ModalToastView extends Component{
             animatedValue1: new Animated.Value( props.isUpdate ? 1 : 0),
             animatedValue2: new Animated.Value(props.isUpdate ? 1 : 0.2),
         }
-    }
 
-    componentWillMount() {
+        // React after 17
         Dimensions.addEventListener('change', this.onWindowChange);
     }
 

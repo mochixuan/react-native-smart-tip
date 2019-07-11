@@ -13,11 +13,48 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="SnackView.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/snackbar/SnackView.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModalToastView.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modaltoast/ModalToastView.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/toast/ToastView.js" />
+        <option value="$PROJECT_DIR$/snackbar/SnackView.js" />
+        <option value="$PROJECT_DIR$/modaltoast/ModalToastView.js" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
@@ -30,7 +67,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="66" />
     <option name="y" value="23" />
     <option name="width" value="1299" />
@@ -41,7 +78,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -49,10 +85,31 @@
               <item name="lib" type="b2602c69:ProjectViewProjectNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="modaltoast" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="snackbar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="toast" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -104,26 +161,27 @@
       <option name="presentableId" value="Default" />
       <updated>1552038986178</updated>
       <workItem from="1552038987963" duration="1083000" />
-      <workItem from="1552265509500" duration="2052000" />
+      <workItem from="1552265509500" duration="2280000" />
+      <workItem from="1562830657244" duration="84000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3135000" />
+    <option name="totallyTimeSpent" value="3447000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="66" y="23" width="1299" height="792" extended-state="1" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980362" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496464" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32937685" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3283582" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -153,12 +211,53 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/Constants.js">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-749" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modaltoast/ModalToast.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-440">
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toast/ToastView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snackbar/SnackView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modaltoast/ModalToastView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        <state relative-caret-position="38">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>

@@ -22,9 +22,8 @@ class SnackView extends Component{
             animatedValue1: new Animated.Value(0),
             animatedValue2: new Animated.Value(1),
         }
-    }
 
-    componentWillMount() {
+        // React after 17
         Dimensions.addEventListener('change', this.onWindowChange);
     }
 

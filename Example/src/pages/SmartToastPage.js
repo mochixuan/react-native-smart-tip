@@ -7,6 +7,7 @@ import {
     TouchableOpacity,
     Image,
     ActivityIndicator,
+    TextInput
 } from 'react-native'
 import StatusBarView from "../components/StatusBarView";
 import Toast from '../widget/toast/Toast'
@@ -78,6 +79,7 @@ export default class SmartToastPage extends Component{
                         {this._renderBtnView('Icon Center',toast5)}
                         {this._renderBtnView('Icon Bottom',toast6)}
                     </View>
+                    <TextInput/>
                 </View>
             </SafeAreaView>
         )
