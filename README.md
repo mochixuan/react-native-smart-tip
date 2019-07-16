@@ -4,6 +4,13 @@ React-native smart tip, including Toast、Modal、SnackBar
 ![GitHub license](https://img.shields.io/badge/license-MIT-green.svg)
 [![npm](https://img.shields.io/npm/v/react-native-smart-tip.svg?style=flat)](https://npmjs.com/package/react-native-smart-tip)
 
+### Tip: Android: 为防止键盘弹出时Toast被压缩,需改一个单词。
+
+```
+将 /android/src/main/AndroidManifest.xml 里的 windowSoftInputMode赋值为adjustPan
+android:windowSoftInputMode="adjustPan"
+```
+
 ### 2019.7 移除componentWillMount方法里的方法。兼容未来React 17版本，React-Native 0.6版本。
 
 ### Installation
