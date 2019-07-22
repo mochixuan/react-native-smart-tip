@@ -10,6 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/mochixuan/react-native-smart-tip"
   },
+  "types": "./index.d.ts",
   "keywords": [
     "react-native",
     "Toast",
