@@ -66,7 +66,7 @@ export interface IModalOpts {
 }
 
 export class WModal {
-	static show: (option: ISnackBarOpts) => void;
+	static show: (option: IModalOpts) => void;
 	static hide: () => void;
 
 	static position: {
