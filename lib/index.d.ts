@@ -18,18 +18,17 @@ export class WToast {
 		LONG: number
 		SHORT: number
 	};
-	static positon: {
+	static position: {
 		TOP: number;
 		CENTER: number;
 		BOTTOM: number;
 	};
-	constructor();
 }
 
 export interface ISnackBarOpts {
 	data: string;
 	statusBarHeight?: number;
-	heigh?: number;
+    height?: number;
 	duration?: number;
 	position?: number;
 	inEasing?: (value: number) => number;
@@ -52,7 +51,6 @@ export class WSnackBar {
 		TOP: number;
 		BOTTOM: number;
 	};
-	constructor();
 }
 
 export interface IModalOpts {
@@ -74,6 +72,5 @@ export class WModal {
 		CENTER: number;
 		BOTTOM: number;
 	};
-	constructor();
 }
 
