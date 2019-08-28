@@ -7,7 +7,7 @@ React-native smart tip, including Toast、Modal、SnackBar
 ### Tip: Android: To prevent Toast from being compressed when the keyboard pops up, you need to change a word.
 
 ```
-将 /android/src/main/AndroidManifest.xml 里的 windowSoftInputMode赋值为adjustPan
+Assign windowSoftInputMode in /android/src/main/AndroidManifest.xml to adjustPan
 android:windowSoftInputMode="adjustPan"
 ```
 
