@@ -14,11 +14,15 @@ npm i react-native-smart-tip --save
 ```
 
 ### Features
-![](https://user-gold-cdn.xitu.io/2019/3/11/1696a8fc48b1fad3?w=240&h=427&f=png&s=20479)
-![](https://user-gold-cdn.xitu.io/2019/3/11/1696a916aeec0d6a?w=240&h=427&f=png&s=25778)
+
+##### Toast
 
 ![](https://user-gold-cdn.xitu.io/2019/8/29/16cdb4875aa8ae10?w=320&h=533&f=gif&s=1109140)
+
+##### SnackBar
 ![](https://user-gold-cdn.xitu.io/2019/8/29/16cdb4bf900275de?w=300&h=500&f=gif&s=162107)
+
+##### Modal
 ![](https://user-gold-cdn.xitu.io/2019/8/29/16cdb4c3641f5870?w=300&h=500&f=gif&s=176895)
 
 ### Usage
