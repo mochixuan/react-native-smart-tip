@@ -13,17 +13,19 @@ or
 npm i react-native-smart-tip --save 
 ```
 
+![](https://raw.githubusercontent.com/mochixuan/react-native-smart-tip/master/img/main.jpg)
+
 ### Features
 
 ##### Toast
 
-![](https://user-gold-cdn.xitu.io/2019/8/29/16cdb4875aa8ae10?w=320&h=533&f=gif&s=1109140)
+![](https://github.com/mochixuan/react-native-smart-tip/blob/master/img/toast.gif?raw=true)
 
 ##### SnackBar
-![](https://user-gold-cdn.xitu.io/2019/8/29/16cdb4bf900275de?w=300&h=500&f=gif&s=162107)
+![](https://github.com/mochixuan/react-native-smart-tip/blob/master/img/snackbar.gif?raw=true)
 
 ##### Modal
-![](https://user-gold-cdn.xitu.io/2019/8/29/16cdb4c3641f5870?w=300&h=500&f=gif&s=176895)
+![](https://github.com/mochixuan/react-native-smart-tip/blob/master/img/modal.gif?raw=true)
 
 ### Usage
 
