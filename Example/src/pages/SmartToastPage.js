@@ -49,11 +49,11 @@ const toast5 = {
 }
 
 const toast6 = {
-    data: 'Error',
-    textColor: '#fff',
-    backgroundColor: '#444444',
+    data: 'Very Good',
+    textColor: '#E5ECFF',
+    backgroundColor: '#444',
     position: Toast.position.BOTTOM,
-    icon: <Image source={require('../data/img/error.png')} style={{width: 32,height: 32,resizeMode: 'contain'}}/>
+    icon: <Image source={require('../data/img/like.png')} style={{width: 32,height: 32,resizeMode: 'contain'}}/>
 }
 
 export default class SmartToastPage extends Component{

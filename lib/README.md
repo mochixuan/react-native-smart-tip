@@ -2,7 +2,9 @@
 React-native smart tip, including Toast、Modal、SnackBar
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-green.svg)
-[![npm](https://img.shields.io/npm/v/react-native-drag-sort.svg?style=flat)](https://npmjs.com/package/react-native-smart-tip)
+[![npm](https://img.shields.io/npm/v/react-native-smart-tip.svg?style=flat)](https://npmjs.com/package/react-native-smart-tip)
+
+### 2019.7 Remove the method in the componentWillMount method. Compatible with future React 17 versions, React-Native@0.6 version.
 
 ### Installation
 ```bash
@@ -15,8 +17,9 @@ npm i react-native-smart-tip --save
 ![](https://user-gold-cdn.xitu.io/2019/3/11/1696a8fc48b1fad3?w=240&h=427&f=png&s=20479)
 ![](https://user-gold-cdn.xitu.io/2019/3/11/1696a916aeec0d6a?w=240&h=427&f=png&s=25778)
 
-![](https://user-gold-cdn.xitu.io/2019/3/11/1696a966b770cece?w=480&h=800&f=gif&s=562897)
-![](https://user-gold-cdn.xitu.io/2019/3/11/1696a98a1bbc2348?w=480&h=800&f=gif&s=359406)
+![](https://user-gold-cdn.xitu.io/2019/8/29/16cdb4875aa8ae10?w=320&h=533&f=gif&s=1109140)
+![](https://user-gold-cdn.xitu.io/2019/8/29/16cdb4bf900275de?w=300&h=500&f=gif&s=162107)
+![](https://user-gold-cdn.xitu.io/2019/8/29/16cdb4c3641f5870?w=300&h=500&f=gif&s=176895)
 
 ### Usage
 

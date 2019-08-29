@@ -42,6 +42,7 @@ export default class ModalToastView extends Component{
 
     render() {
 
+
         const containerStyle = {}
         const contentStyle = {
             backgroundColor: this.props.backgroundColor,
@@ -54,19 +55,32 @@ export default class ModalToastView extends Component{
         }
 
         if (this.props.position > 0) {
-            containerStyle.top = 0
-            containerStyle.bottom = this.state.deviceHeight*0.6
+            containerStyle.justifyContent = 'flex-start';
+            containerStyle.top = 40
+            containerStyle.bottom = 0;
+            contentStyle.marginTop = this.state.animatedValue1.interpolate({
+                inputRange: [0, 1],
+                outputRange: [ToastInHeight/2, 0]
+            });
         } else if (this.props.position == 0) {
-            containerStyle.top = this.state.deviceHeight*0.3
-            containerStyle.bottom = this.state.deviceHeight*0.3
+            containerStyle.justifyContent = 'center';
+            containerStyle.top = 0
+            containerStyle.bottom = 0;
+            contentStyle.marginTop = this.state.animatedValue1.interpolate({
+                inputRange: [0, 1],
+                outputRange: [ToastInHeight, 0]
+            });
         } else if (this.props.position < 0) {
-            containerStyle.top = this.state.deviceHeight*0.6
-            containerStyle.bottom = 0
+            containerStyle.justifyContent = 'flex-end';
+            containerStyle.top = 0
+            containerStyle.bottom = 40;
+            contentStyle.marginBottom = this.state.animatedValue1.interpolate({
+                inputRange: [0, 1],
+                outputRange: [0, ToastInHeight/2]
+            });
         }
-        contentStyle.marginTop = this.state.animatedValue1.interpolate({
-            inputRange: [0, 1],
-            outputRange: [ToastInHeight, 0]
-        })
+
+
 
         return (
             <Modal
@@ -132,7 +146,6 @@ export default class ModalToastView extends Component{
 
 const styles = StyleSheet.create({
     container: {
-        justifyContent: 'center',
         alignItems: 'center',
         position: 'absolute',
         left: 0,

@@ -12,7 +12,7 @@ import SmartToastPage from "./SmartToastPage";
 import ModalToastPage from "./ModalToastPage";
 const {width} = Dimensions.get('window')
 
-const main_color = '#ff6548'
+const main_color = '#1ABc9c'
 export default class MainPage extends Component{
 
     render() {
