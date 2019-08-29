@@ -27,6 +27,9 @@ npm i react-native-smart-tip --save
 ##### Modal
 ![](https://github.com/mochixuan/react-native-smart-tip/blob/master/img/modal.gif?raw=true)
 
+##### Show tips on Modal
+![](https://github.com/mochixuan/react-native-smart-tip/blob/master/img/modal1.gif?raw=true)
+
 ### Usage
 
 ##### WToast

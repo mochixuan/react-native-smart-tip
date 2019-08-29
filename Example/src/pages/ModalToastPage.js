@@ -6,7 +6,8 @@ import {
     SafeAreaView,
     TouchableOpacity,
     Image,
-    ActivityIndicator
+    ActivityIndicator,
+    Modal
 } from 'react-native'
 import StatusBarView from "../components/StatusBarView";
 import ModalToast from '../widget/modaltoast/ModalToast'
@@ -59,7 +60,8 @@ export default class ModalToastPage extends Component{
 
         this.state = {
             showModal: false,
-            tip: 'start'
+            tip: 'start',
+            visibleModal: false
         }
     }
 
@@ -93,6 +95,44 @@ export default class ModalToastPage extends Component{
                         </TouchableOpacity>
                     </View>
                     <Text style={{fontSize: 18,color: main_color}}>{this.state.tip}</Text>
+                    <TouchableOpacity
+                        style={styles.btn_view}
+                        onPress={()=>{
+                            this.setState({
+                                visibleModal: true
+                            })
+                        }}
+                    >
+                        <Text style={styles.btn_text}>{'Show Common Modal'}</Text>
+                    </TouchableOpacity>
+                    <Modal
+                        visible={this.state.visibleModal}
+                        animationType="slide"
+                        transparent={true}
+                        onRequestClose={()=>{
+                            this.setState({
+                                visibleModal: false
+                            })
+                        }}
+                    >
+                        <View style={{justifyContent: 'center',flex: 1,backgroundColor: 'rgba(0, 0, 0, .5)'}}>
+                            <View style={{
+                                height: 300,
+                                backgroundColor: '#f00',
+                                justifyContent: 'center',
+                                alignItems: 'center',
+                                margin: 15,
+                                borderRadius: 10,
+                            }}>
+                                <TouchableOpacity style={styles.btn_view} onPress={()=>{this.setState({visibleModal: false})}}>
+                                    <Text style={styles.btn_text}>Close Modal</Text>
+                                </TouchableOpacity>
+                                <TouchableOpacity style={styles.btn_view} onPress={()=>{this.show(toast5)}}>
+                                    <Text style={styles.btn_text}>Show Tip</Text>
+                                </TouchableOpacity>
+                            </View>
+                        </View>
+                    </Modal>
                 </View>
             </SafeAreaView>
         )
