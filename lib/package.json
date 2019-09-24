@@ -24,8 +24,8 @@
   ],
   "author": "mochixuan",
   "license": "MIT",
-  "dependencies": {
-    "react-native-root-siblings": "^3.1.7"
+  "peerDependencies": {
+    "react-native-root-siblings": "*"
   },
   "devDependencies": {},
   "bugs": {
