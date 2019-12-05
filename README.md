@@ -27,7 +27,9 @@ npm i react-native-smart-tip --save
 ##### Modal
 ![](https://github.com/mochixuan/react-native-smart-tip/blob/master/img/modal.gif?raw=true)
 
-##### Show tips on Modal
+##### Show tips on Modal 
+> Tip: Modal shows that modal can only be used on Android [issue](https://github.com/facebook/react-native/issues/3445)
+
 ![](https://github.com/mochixuan/react-native-smart-tip/blob/master/img/modal1.gif?raw=true)
 
 ### Usage
