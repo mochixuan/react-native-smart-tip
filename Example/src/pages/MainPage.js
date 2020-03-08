@@ -32,6 +32,9 @@ export default class MainPage extends Component{
                     <TouchableOpacity style={styles.btn_view} onPress={this.onJumpModalToastPage}>
                         <Text style={styles.btn_text}>{'ModalToast'}</Text>
                     </TouchableOpacity>
+                    <TouchableOpacity style={styles.btn_view} onPress={this.onJumpModalShowToastPage}>
+                        <Text style={styles.btn_text}>{'ModalShowToastPage'}</Text>
+                    </TouchableOpacity>
                 </View>
             </SafeAreaView>
         )
@@ -47,6 +50,10 @@ export default class MainPage extends Component{
 
     onJumpModalToastPage = () => {
         this.props.navigation.navigate('ModalToastPage')
+    }
+
+    onJumpModalShowToastPage = () => {
+        this.props.navigation.navigate('ModalShowToastPage')
     }
 
 }

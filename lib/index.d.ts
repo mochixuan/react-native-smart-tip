@@ -1,4 +1,4 @@
-import { ReactNode } from 'react';
+import { ReactNode,Component } from 'react';
 import { Animated } from 'react-native';
 
 export interface IToastOpts {
@@ -73,4 +73,14 @@ export class WModal {
 		BOTTOM: number;
 	};
 }
+
+const toastInstance = (opt: IToastOpts) => {}
+
+export interface IModalShowToastProps {
+  toastInstance: (func: any) => toastInstance;
+}
+
+export class WModalShowToastView extends Component<IModalShowToastProps> {} 
+
+export {WModal, WSnackBar, WToast, WModalShowToastView};
 
