@@ -114,7 +114,8 @@ class SnackView extends Component{
             {
                 toValue: 1,
                 duration: SnackBarInOutDuration,
-                easing: this.props.inEasing
+                easing: this.props.inEasing,
+                useNativeDriver: false,
             }
         )
 
@@ -126,6 +127,7 @@ class SnackView extends Component{
                         {
                             toValue: 1,
                             duration: this.props.duration,
+                            useNativeDriver: false,
                         }
                     ),
                     Animated.timing(
@@ -133,6 +135,7 @@ class SnackView extends Component{
                         {
                             toValue: 0,
                             duration: SnackBarInOutDuration,
+                            useNativeDriver: false,
                         }
                     )
                 ])
@@ -149,6 +152,7 @@ class SnackView extends Component{
             {
                 toValue: 0,
                 duration: SnackBarInOutDuration,
+                useNativeDriver: false,
             }
         )
         this.hideAnimated.start(()=>{

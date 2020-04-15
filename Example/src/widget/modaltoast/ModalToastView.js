@@ -115,7 +115,8 @@ export default class ModalToastView extends Component{
                     {
                         toValue: 1,
                         duration: ToastInOutDuration,
-                        easing: this.props.inEasing
+                        easing: this.props.inEasing,
+                        useNativeDriver: false,
                     }
                 ),
                 Animated.timing(
@@ -123,6 +124,7 @@ export default class ModalToastView extends Component{
                     {
                         toValue: 1,
                         duration: ToastInOutDuration,
+                        useNativeDriver: false,
                     }
                 ),
             ])

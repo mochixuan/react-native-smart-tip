@@ -103,7 +103,8 @@ export default class ToastView extends Component{
                     {
                         toValue: 1,
                         duration: ToastInOutDuration,
-                        easing: this.props.inEasing
+                        easing: this.props.inEasing,
+                        useNativeDriver: false,
                     }
                 ),
                 Animated.timing(
@@ -111,6 +112,7 @@ export default class ToastView extends Component{
                     {
                         toValue: 1,
                         duration: ToastInOutDuration,
+                        useNativeDriver: false,
                     }
                 ),
             ]),
@@ -119,6 +121,7 @@ export default class ToastView extends Component{
                 {
                     toValue: 1,
                     duration: this.props.duration,
+                    useNativeDriver: false,
                 }
             ),
             Animated.timing(
@@ -126,6 +129,7 @@ export default class ToastView extends Component{
                 {
                     toValue: 2,
                     duration: ToastInOutDuration,
+                    useNativeDriver: false,
                 }
             )
         ])
