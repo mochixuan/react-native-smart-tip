@@ -23,6 +23,7 @@ const ToastDefaultOpt = {
     textColor: 'white',
     backgroundColor: 'black',
     icon: undefined,
+    isShowShadow: true,
 }
 
 // ---------
@@ -51,6 +52,7 @@ const SnackBarDefaultOpt = {
     actionText: undefined,
     actionTextColor: 'white',
     actionClick: undefined,
+    isShowShadow: true,
 }
 
 const SnackBarInOutDuration = 200

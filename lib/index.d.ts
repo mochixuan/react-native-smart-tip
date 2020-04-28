@@ -2,13 +2,14 @@ import { ReactNode,Component } from 'react';
 import { Animated } from 'react-native';
 
 export interface IToastOpts {
-	data: string;
-	duration?: number;
-	position?: number;
-	inEasing?: (value: number) => number;
-	textColor?: string;
-	backgroundColor?: string;
-	icon?: ReactNode;
+  data: string;
+  duration?: number;
+  position?: number;
+  inEasing?: (value: number) => number;
+  textColor?: string;
+  backgroundColor?: string;
+  icon?: ReactNode;
+  isShowShadow?: boolean
 }
 
 export class WToast {
@@ -26,17 +27,18 @@ export class WToast {
 }
 
 export interface ISnackBarOpts {
-	data: string;
-	statusBarHeight?: number;
-    height?: number;
-	duration?: number;
-	position?: number;
-	inEasing?: (value: number) => number;
-	textColor?: string;
-	backgroundColor?: string;
-	actionText?: string;
-	actionTextColor?: string;
-	actionClick?: () => void;
+  data: string;
+  statusBarHeight?: number;
+  height?: number;
+  duration?: number;
+  position?: number;
+  inEasing?: (value: number) => number;
+  textColor?: string;
+  backgroundColor?: string;
+  actionText?: string;
+  actionTextColor?: string;
+  actionClick?: () => void;
+  isShowShadow?: boolean;
 }
 
 export class WSnackBar {

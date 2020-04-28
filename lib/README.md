@@ -4,6 +4,29 @@ React-native smart tip, including Toast、Modal、SnackBar
 ![GitHub license](https://img.shields.io/badge/license-MIT-green.svg)
 [![npm](https://img.shields.io/npm/v/react-native-smart-tip.svg?style=flat)](https://npmjs.com/package/react-native-smart-tip)
 
+### 2020.5 Add property isShowShadow to WSnackBar and WToast
+
+### 2020.3 Show Toast above Modal (Compatible with Android and iOS)
+
+![](https://user-gold-cdn.xitu.io/2020/3/8/170b855830588e41?w=300&h=500&f=gif&s=489177)
+
+```
+import { ModalShowToastView } from 'react-native-smart-tip'
+
+getToastInstance = (toastInstance) => {
+    this.toastInstance = toastInstance;
+}
+
+<Modal>
+	<View>
+		<ModalShowToastView toastInstance={this.getToastInstance} />
+	</View>
+</Modal>
+
+this.toastInstance({data: 'toast'})
+
+```
+
 ### 2019.7 Remove the method in the componentWillMount method. Compatible with future React 17 versions, React-Native@0.6 version.
 
 ### Installation
@@ -13,13 +36,24 @@ or
 npm i react-native-smart-tip --save 
 ```
 
-### Features
-![](https://user-gold-cdn.xitu.io/2019/3/11/1696a8fc48b1fad3?w=240&h=427&f=png&s=20479)
-![](https://user-gold-cdn.xitu.io/2019/3/11/1696a916aeec0d6a?w=240&h=427&f=png&s=25778)
+![](https://raw.githubusercontent.com/mochixuan/react-native-smart-tip/master/img/main.jpg)
 
-![](https://user-gold-cdn.xitu.io/2019/8/29/16cdb4875aa8ae10?w=320&h=533&f=gif&s=1109140)
-![](https://user-gold-cdn.xitu.io/2019/8/29/16cdb4bf900275de?w=300&h=500&f=gif&s=162107)
-![](https://user-gold-cdn.xitu.io/2019/8/29/16cdb4c3641f5870?w=300&h=500&f=gif&s=176895)
+### Features
+
+##### Toast
+
+![](https://github.com/mochixuan/react-native-smart-tip/blob/master/img/toast.gif?raw=true)
+
+##### SnackBar
+![](https://github.com/mochixuan/react-native-smart-tip/blob/master/img/snackbar.gif?raw=true)
+
+##### Modal
+![](https://github.com/mochixuan/react-native-smart-tip/blob/master/img/modal.gif?raw=true)
+
+##### Show tips on Modal 
+> Tip: Modal shows that modal can only be used on Android [issue](https://github.com/facebook/react-native/issues/3445)
+
+![](https://github.com/mochixuan/react-native-smart-tip/blob/master/img/modal1.gif?raw=true)
 
 ### Usage
 
@@ -57,7 +91,7 @@ inEasing | Easing   | false  | Easing.elastic(1)| Admission animation
 textColor| String | false |'white'| font color
 backgroundColor| String | false | 'black' | background color
 icon | Component | fasse | undefined | Image to be displayed
-
+isShowShadow | boolean | false | true | Shadow effect
 ---
 
 ##### WSnackBar
@@ -103,7 +137,7 @@ backgroundColor| String | false | 'black' | background color
 actionText | String | false | undefined | action text
 actionTextColor | String | false | 'white' | action text color
 actionClick | Function | false |  undefined | listener click
-
+isShowShadow | boolean | false | true | Shadow effect
 ---
 
 ##### WModal 

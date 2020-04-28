@@ -4,6 +4,8 @@ React-native smart tip, including Toast、Modal、SnackBar
 ![GitHub license](https://img.shields.io/badge/license-MIT-green.svg)
 [![npm](https://img.shields.io/npm/v/react-native-smart-tip.svg?style=flat)](https://npmjs.com/package/react-native-smart-tip)
 
+### 2020.5 Add property isShowShadow to WSnackBar and WToast
+
 ### 2020.3 Show Toast above Modal (Compatible with Android and iOS)
 
 ![](https://user-gold-cdn.xitu.io/2020/3/8/170b855830588e41?w=300&h=500&f=gif&s=489177)
@@ -89,7 +91,7 @@ inEasing | Easing   | false  | Easing.elastic(1)| Admission animation
 textColor| String | false |'white'| font color
 backgroundColor| String | false | 'black' | background color
 icon | Component | fasse | undefined | Image to be displayed
-
+isShowShadow | boolean | false | true | Shadow effect
 ---
 
 ##### WSnackBar
@@ -135,7 +137,7 @@ backgroundColor| String | false | 'black' | background color
 actionText | String | false | undefined | action text
 actionTextColor | String | false | 'white' | action text color
 actionClick | Function | false |  undefined | listener click
-
+isShowShadow | boolean | false | true | Shadow effect
 ---
 
 ##### WModal 
