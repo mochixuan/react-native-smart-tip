@@ -4,7 +4,9 @@ React-native smart tip, including Toast、Modal、SnackBar
 ![GitHub license](https://img.shields.io/badge/license-MIT-green.svg)
 [![npm](https://img.shields.io/npm/v/react-native-smart-tip.svg?style=flat)](https://npmjs.com/package/react-native-smart-tip)
 
-### 2020.5 Add property isShowShadow to WSnackBar and WToast
+### 2020.5 
+1. Add property isShowShadow to WSnackBar and WToast
+2. Add sliding hide function for WSnackBar
 
 ### 2020.3 Show Toast above Modal (Compatible with Android and iOS)
 
@@ -113,7 +115,7 @@ show = () => {
 	    backgroundColor: '#050405',
 	    actionText: 'Sure',
 	    actionTextColor: '#ff490b',
-	    actionClick: ()=>{
+	    onActionHide: (isSlideHide)=>{
 	    	// Click Action
 	    },
 	}
@@ -136,7 +138,8 @@ textColor| String | false |'white'| font color
 backgroundColor| String | false | 'black' | background color
 actionText | String | false | undefined | action text
 actionTextColor | String | false | 'white' | action text color
-actionClick | Function | false |  undefined | listener click
+isAllowSlideExit|boolean | false | true | Whether to run sliding hide
+onActionHide | Function | false |  undefined | listener click
 isShowShadow | boolean | false | true | Shadow effect
 ---
 

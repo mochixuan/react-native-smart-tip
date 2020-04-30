@@ -37,7 +37,8 @@ export interface ISnackBarOpts {
   backgroundColor?: string;
   actionText?: string;
   actionTextColor?: string;
-  actionClick?: () => void;
+  isAllowSlideExit?: boolean;
+  onActionHide?: (isSlideHide: boolean) => void;
   isShowShadow?: boolean;
 }
 

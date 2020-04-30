@@ -42,9 +42,10 @@ const snackBar4 = {
     textColor: '#ff490b',
     backgroundColor: '#050405',
     actionText: 'Sure',
+    height: 64,
     actionTextColor: '#ff490b',
-    actionClick: ()=>{
-        Toast.show({data: 'Click'})
+    onActionHide: (isSlideHide) => {
+        Toast.show({data:isSlideHide ? 'Sliding hide' : 'Click to hide'})
     },
 }
 
@@ -57,8 +58,8 @@ const snackBar5 = {
     height: 48,
     actionText: 'YES',
     actionTextColor: '#000',
-    actionClick: ()=>{
-        Toast.show({data: 'Hello MoChiXuan'})
+    onActionHide: (isSlideHide) => {
+        Toast.show({data:isSlideHide ? 'Sliding hide' : 'Click to hide'})
     },
 }
 
