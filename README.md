@@ -47,7 +47,7 @@ npm i react-native-smart-tip --save
 ![](https://github.com/mochixuan/react-native-smart-tip/blob/master/img/toast.gif?raw=true)
 
 ##### SnackBar
-![](https://github.com/mochixuan/react-native-smart-tip/blob/master/img/snackbar.gif?raw=true)
+![](https://user-gold-cdn.xitu.io/2020/4/30/171c959272abe458?w=320&h=533&f=gif&s=355190)
 
 ##### Modal
 ![](https://github.com/mochixuan/react-native-smart-tip/blob/master/img/modal.gif?raw=true)
