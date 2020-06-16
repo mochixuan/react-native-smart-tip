@@ -82,6 +82,8 @@ show = () => {
 	WToast.show(toastOpts)
 }
 
+WToast.hide(); // Can be hidden immediately
+
 ```
 ##### WToast API
  Props |	Type	  | Required	 | Default    | Description
