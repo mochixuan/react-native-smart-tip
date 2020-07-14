@@ -1,6 +1,6 @@
 {
   "name": "react-native-smart-tip",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "react-native smart tip, including Toast、Modal、SnackBar",
   "main": "index.js",
   "scripts": {

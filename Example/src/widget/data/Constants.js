@@ -54,6 +54,7 @@ const SnackBarDefaultOpt = {
     isAllowSlideExit: true,
     onActionHide: undefined,
     isShowShadow: true,
+    numberOfLines: 1,
 }
 
 const SnackBarInOutDuration = 200

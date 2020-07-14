@@ -40,6 +40,7 @@ export interface ISnackBarOpts {
   isAllowSlideExit?: boolean;
   onActionHide?: (isSlideHide: boolean) => void;
   isShowShadow?: boolean;
+  numberOfLines?: number;
 }
 
 export class WSnackBar {
