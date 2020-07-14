@@ -143,6 +143,7 @@ actionTextColor | String | false | 'white' | action text color
 isAllowSlideExit|boolean | false | true | Whether to run sliding hide
 onActionHide | Function | false |  undefined | listener click
 isShowShadow | boolean | false | true | Shadow effect
+numberOfLines|number| false | 1 | Maximum number of rows
 ---
 
 ##### WModal 
