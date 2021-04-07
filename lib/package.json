@@ -1,6 +1,6 @@
 {
   "name": "react-native-smart-tip",
-  "version": "2.2.1",
+  "version": "2.3.0",
   "description": "react-native smart tip, including Toast、Modal、SnackBar",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,7 @@
   "author": "mochixuan",
   "license": "MIT",
   "dependencies": {
-    "react-native-root-siblings": "^3.2.3"
+    "react-native-root-siblings": "^4.1.0"
   },
   "devDependencies": {},
   "bugs": {

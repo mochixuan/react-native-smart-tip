@@ -4,6 +4,22 @@ React-native smart tip, including Toast、Modal、SnackBar
 ![GitHub license](https://img.shields.io/badge/license-MIT-green.svg)
 [![npm](https://img.shields.io/npm/v/react-native-smart-tip.svg?style=flat)](https://npmjs.com/package/react-native-smart-tip)
 
+### 2021.4
+In react native >= 0.62, the new LogBox component would impact this component's initialization. To make it work we have to explicitly insert a mount point in your app like this
+
+```
+import { WRootToastApp } from 'react-native-smart-tip'
+
+// in your entry file like `App.js`
+
+return (
+  <WRootToastApp>  // <- use WRootToastApp to wrap your root component
+    <App />
+  </WRootToastApp>
+);
+
+```
+
 ### 2020.5 
 1. Add property isShowShadow to WSnackBar and WToast
 2. Add sliding hide function for WSnackBar

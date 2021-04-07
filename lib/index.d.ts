@@ -86,5 +86,7 @@ export interface IModalShowToastProps {
 
 export class WModalShowToastView extends Component<IModalShowToastProps> {} 
 
-export {WModal, WSnackBar, WToast, WModalShowToastView};
+export class WRootToastApp extends Component {}
+
+export {WModal, WSnackBar, WToast, WModalShowToastView, WRootToastApp};
 
